@@ -95,7 +95,7 @@ public enum SortEnum {
 
     }
 
-    //Esse método é nescessário, pois o algoritmo de ordenanção de tamanho precisa de algum outro parâmetro para fazer comparação caso
+    //Esse método é necessário, pois o algoritmo de ordenanção de tamanho precisa de algum outro parâmetro para fazer comparação caso
     //o tamanho da String seja igual, no caso, o outro parâmetro utilizado foi a ordem alfabetica.
     public static int compararTamanhoEOrdem(String nome1, String nome2){
         if (nome1.length() > nome2.length()){
